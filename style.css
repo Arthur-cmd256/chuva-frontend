@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 1080px;
     border-right: 1px solid #E7E7E7;
-    ;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px 0px #00000040;
 }
@@ -48,6 +47,7 @@
 
 .header {
     background: #FDF1EB;
+    padding-left: 25px;
 }
 
 .elementos-header {
@@ -105,4 +105,56 @@
 .header .elementos-header #image-login img{
     border: 1px solid #F5F5F5;
     border-radius: 100%;
+}
+
+#title-main h3 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #ED7839;
+
+}
+
+.elementos-topo {
+    padding-top: 20px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+.button-top {
+    background: #ED7839;
+    border-radius: 4px;
+    border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    float: right;
+    margin-left: 5px;
+}
+
+.elementos-topo div p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    padding-top: 10px;
+}
+
+.elemento-video-caixa{
+    padding-left: 25px;
+}
+
+.caixa{
+    border: 1px solid #ccc;
 }
