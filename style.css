@@ -153,8 +153,226 @@
 
 .elemento-video-caixa{
     padding-left: 25px;
+    padding-bottom: 30px;
 }
 
-.caixa{
-    border: 1px solid #ccc;
+.detalhe-trabalho{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#painel-header{
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    padding: 10px 15px;
+    
+}
+
+#painel-header h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+#painel-body .detalhe-trabalho p{
+    color: #5C5C5C;
+    font-style: normal;
+}
+
+#painel-body #primeiro-texto{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+#painel-body #segundo-texto{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+#painel-body #terceiro-texto{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+
+.title {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    margin-left: 37px;
+}
+
+.title h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    margin-bottom: 0px;
+    padding: 10px 15px;
+}
+
+
+#text-resumo {
+    margin-left: 37px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+#text-resumo p {
+    padding: 15px 15px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+}
+
+#text-resumo p a {
+    text-decoration: none;
+    color: #ED7839;
+}
+
+#painel-discussoes {
+    margin-left: 37px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#painel-discussoes h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+    text-align: center;
+    padding-top: 15px
+}
+
+#painel-discussoes p {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
+
+#btn-criar {
+    width: 133px;
+    height: 32px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: -16px;
+}
+
+#linha-botão {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+#card-topico {
+    margin-top: 32px!important;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin: 15px;
+    padding: 15px 25px 0px 25px;
+}
+
+#card-footer button{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+}   
+
+#title-topico h6 {
+    margin-bottom: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ED7839;
+}
+
+#user-topico p{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+}
+
+#body-topico p {
+    margin-bottom: 3px;
+    text-align: left;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer img{
+    width: 100%;
+    margin-left: 25px;
 }
