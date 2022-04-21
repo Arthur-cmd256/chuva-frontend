@@ -317,6 +317,53 @@
     border-bottom: 1px solid #E7E7E7;
 }
 
+#teste2 {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+#teste2 p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #5C5C5C;
+    padding-top: 15px;
+}
+
+#teste2 label {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+}
+
+#teste2 #footer-textarea {
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#teste2 #enviar-duvida {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 #card-topico {
     margin-top: 32px!important;
     background: #FFFFFF;
@@ -380,6 +427,73 @@
     box-sizing: border-box;
     border-radius: 0px;
     margin: 0px 15px 0px 15px;
+    padding: 15px 25px 35px 25px;
+}
+
+#resposta-autor #nome-autor {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+    text-align: left;
+}
+
+#resposta-autor #identifica-autor {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+}
+
+#resposta-autor img {
+    margin-bottom: 15px;
+}
+
+#resposta-autor #texto-autor p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+#resposta-user {
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: 0px 15px 0px 15px;
+    padding: 15px 25px 35px 25px;
+}
+
+
+#resposta-user #nome-user {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+    text-align: left;
+}
+
+#resposta-user #texto-user p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 0px;
 }
 
 footer {
