@@ -1,3 +1,5 @@
+/* side bar */
+
 #side-bar {
     min-height: 1080px;
     border-right: 1px solid #E7E7E7;
@@ -42,6 +44,8 @@
     background: #FDF1EB;
     border-left: 5px solid #ED7839;
 }
+
+/* header */
 
 .header {
     background: #FDF1EB;
@@ -104,6 +108,8 @@
     border: 1px solid #F5F5F5;
     border-radius: 100%;
 }
+
+/* main */
 
 #title-main h3 {
     font-family: 'Roboto';
