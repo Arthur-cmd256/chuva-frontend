@@ -28,6 +28,32 @@
         </script>
         <script>
             $(document).ready(function(){
+            $("#enviar-duvida").click(function(){
+                $("#teste2").hide();
+                });
+            $("#enviar-duvida").click(function(){
+                $("#teste5").show();
+                });
+            $("#enviar-duvida").click(function(){
+                $("#teste6").show();
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+            $("#btn-criar-topico").click(function(){
+                $("#teste5").hide();
+                });
+            $("#btn-criar-topico").click(function(){
+                $("#teste6").hide();
+                });
+            $("#btn-criar-topico").click(function(){
+                $("#teste2").show();
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
             $("#ver-mais").click(function(){
                 $("#teste3").hide();
                 });
@@ -267,8 +293,8 @@
                                         <div class="row">
                                             <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-9">
+                                        <div id="footer-form" class="row">
+                                            <div class="col-9 p-0">
                                                 <div id="footer-textarea" class="row">
                                                     <div class="row">
                                                         <div class="col-12">
@@ -289,13 +315,96 @@
                                                 </div>
                                             </div>
                                             <div class="col-3 p-0 d-flex justify-content-end">
-                                                <button id="enviar-duvida" class="btn">Enviar</button>
+                                                <button id="enviar-duvida" class="btn" type="button">Enviar</button>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
                             </div>
 
+                            <div id="teste5" style="display: none;">
+                                <h5>
+                                    Seu tópico foi enviado com sucesso! :D
+                                </h5>
+                                <div class="row">
+                                    <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+                                </div>
+                                
+                                <div id="descubra" class="row">
+                                    <p>Descubra outros trabalhos!</p>
+                                </div>
+                                
+                                <div class="row pt-3 d-flex justify-content-center">
+                                    <div id="linha-botão">
+                                        <button id="btn-criar-topico" class="btn">
+                                            criar novo tópico
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="teste6" style="display: none">
+                                <div id="topico-aguardando" class="row">
+                                    <div class="col-12">
+                                        <div class="row d-flex justify-content-center">
+                                            <img src="img/visualização-cinza.png">
+                                        </div>
+                                        <div class="row">
+                                            <h5>Aguardando feedback dos autores</h5>
+                                        </div>
+                                        <div id="editar-topico" class="row">
+                                            <p>Editar tópico</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="card-topico" class="row">
+                                    <div class="col-12 ">
+                                        <div class="row">
+                                            <div id="title-topico" class="col-12">
+                                                <h6>Assunto da pergunta aparece aqui</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div  id="user-topico" class="col-12">
+                                                <p>Carlos Henrique Santos</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div id="body-topico" class="col-12">
+                                                <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <div class="col-1 p-0 d-flex justify-content-center">
+                                                        <button class="btn" type="button">
+                                                            <img src="img/mais informações.png" alt="">
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-1 p-0">
+                                                        <button class="btn" type="button">
+                                                            <img src="img/favoritar.png" alt="">
+                                                        </button>
+                                                        
+                                                    </div>
+                                                    <div id="card-footer" class="col-2 p-0 d-flex justify-content-center">
+                                                        <button class="btn" type="button">
+                                                            1 like
+                                                        </button>
+                                                    </div>
+                                                    <div id="card-footer" class="col-3 p-0 d-flex justify-content-center">
+                                                        <button class="btn" type="button">
+                                                            1 resposta
+                                                        </button>
+                                                        
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div id="card-topico" class="row">
                                 <div class="col-12 ">
