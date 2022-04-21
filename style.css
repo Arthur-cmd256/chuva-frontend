@@ -268,6 +268,7 @@
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
+    padding-bottom: 15px;
 }
 
 #painel-discussoes h5 {
@@ -291,6 +292,7 @@
     line-height: 19px;
     text-align: center;
     color: #595959;
+    
 }
 
 #btn-criar {
@@ -322,7 +324,7 @@
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    margin: 15px;
+    margin: 15px 15px 0px 15px;
     padding: 15px 25px 0px 25px;
 }
 
@@ -366,6 +368,18 @@
     font-size: 14px;
     line-height: 18px;
     color: #4D4D4D;
+}
+
+#resposta-topico{
+    display: none;
+}
+
+#resposta-autor {
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: 0px 15px 0px 15px;
 }
 
 footer {
