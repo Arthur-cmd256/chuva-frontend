@@ -238,6 +238,17 @@
     padding: 10px 15px;
 }
 
+#teste3 p a {
+    cursor: pointer;
+}
+
+#teste4 {
+    display: none;
+}
+
+#teste4 p a {
+    cursor: pointer;
+}
 
 #text-resumo {
     margin-left: 37px;
@@ -318,6 +329,7 @@
 }
 
 #teste2 {
+    display: none;
     border-bottom: 1px solid #E7E7E7;
 }
 
