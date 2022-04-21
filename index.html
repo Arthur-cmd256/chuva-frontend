@@ -72,37 +72,55 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-2 vh-100 p-0" style="position: fixed;">
-                    <div id="side-bar">
-                        <div id="top-nome-evento">
-                            <h1>
-                                SLACA 2019
-                            </h1>
-                        </div>
-                        <img id="menu-item-log" src="img/menu-item/dewey 4.png">
-                        <ul class="p-0">
-                            <li class="item-menu"><a href="">Apresentação</a></li>
-                            <li class="item-menu"><a href="">Comitês</a></li>
-                            <li class="item-menu"><a href="">Autores</a></li>
-                            <li class="item-menu"><a href="">Eixos temóticos</a></li>
-                            <li id="item-trabalho" class="item-menu"><a href="">Trabalho</a></li>
-                            <li class="item-menu"><a href="">Contato</a></li>
-                        </ul>
+            <div class="row vw-90">
+                <div id="side-bar" class="col-2 p-0 position-fixed">
+                    <div id="top-nome-evento" class="row pt-3 pb-3 m-0">
+                        <h1 class="p-0">
+                            SLACA 2019
+                        </h1>
+                    </div>
+                    <div id="menu-item-log" class="row">
+                        <img src="img/menu-item/dewey 4.png">
+                    </div>
+                    <div class="row m-0 item-menu">
+                        <a href="">Apresentação</a>
+                    </div>
+                    
+                    <div class="row m-0 item-menu">
+                        <a href="">Comitês</a>
+                    </div>
+
+                    <div class="row m-0 item-menu">
+                        <a href="">Autores</a>
+                    </div>
+
+                    <div class="row m-0 item-menu">
+                        <a href="">Eixos temóticos</a>
+                    </div>
+
+                    <div id="item-trabalho" class="row m-0 item-menu">
+                        <a href="">Trabalho</a>
+                    </div>
+
+                    <div class="row m-0 item-menu">
+                        <a href="">Contato</a>
                     </div>
                 </div>
                 <div class="col-10 offset-2">
-                    <div class="header row">
-                        <div class="elementos-header col-12">
-                            <p id="primeiro-texto">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+                    <div class="row align-items-center  header">
+                        <div class="elementos-header col-md-6">
+                            <div class="row pt-2">
+                                <p id="primeiro-texto">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+                            </div>
+                            <div class="row">
+                                <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
+                            </div>
+                            <div class="row pb-2">
+                                <p>ISSN: 1234-5678</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="header row">
-                        <div class="elementos-header col-6">
-                            <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
-                        </div>
-                        <div class="elementos-header col-2">
-                            <div class="dropdown d-flex flex-row-reverse">
+                        <div class="elementos-header col-md-2">
+                            <div class="dropdown d-flex justify-content-center">
                                 <button id="linguage-button" type="button" class="dropdown-toggle" data-bs-toggle="dropdown">
                                     <img id="linguage-image" src="img/language-image.png">
                                     PT,BR
@@ -112,19 +130,24 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="elementos-header col-3">
-                            <p class="login">Bem vindo!</p>
-                            <p class="login">alguem12@galoascience.com</p>
-                        </div>
-                        <div class="elementos-header col-1">
-                            <img src="img/image.png" class="rounded-circle">
+                        <div class="elementos-header col-4">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="login">Bem vindo!</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="login">alguem12@galoascience.com</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/image.png" class="rounded-circle">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="header row">
-                        <div class="elementos-header col-12">
-                            <p>ISSN: 1234-5678</p>
-                        </div>
-                    </div>
+
+                    
 
 
 
@@ -159,7 +182,7 @@
                         <div class="col-9">
                             <iframe width="90%" height="450px" src="https://www.youtube.com/embed/zBtS5UT6l_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <div class="row">
                                 <div id="painel-header" class="col-10 detalhe-trabalho">
                                     <h4>Detalhes</h4>

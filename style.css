@@ -1,53 +1,51 @@
 #side-bar {
-    width: 100%;
     min-height: 1080px;
     border-right: 1px solid #E7E7E7;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px 0px #00000040;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-#side-bar #top-nome-evento h1{
+#side-bar #top-nome-evento {
+    width: 100%;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-    font-family: "Roboto";
-    font-size: 30px;
+}
+
+#side-bar #top-nome-evento h1 {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    font-style: bold;
+    font-size: 30px;
     line-height: 35px;
-    letter-spacing: 0em;
+    align-items: center;
     text-align: center;
     color: #FFFFFF;
-    padding: 15px;
+
 }
 
-#side-bar #menu-item-log{
-    margin-left: 5%;
-    width: 90%;
-}
-
-#side-bar .item-menu{
-    padding: 7px 24px 7px;
-    border-bottom: 1px solid #E7E7E7;
+#side-bar .item-menu {
+    width: 100%;
 }
 
 #side-bar .item-menu a{
+    text-decoration: none;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 19px;
     color: #725C5C;
-    text-decoration: none;
+    padding: 7px 0px 7px 25px;
+    border-bottom: 1px solid #E7E7E7;
 }
 
-#side-bar #item-trabalho{
+#side-bar #item-trabalho {
     background: #FDF1EB;
-    border-left: 7px solid #EE7A3A;
-    box-sizing: border-box;
+    border-left: 5px solid #ED7839;
 }
 
 .header {
     background: #FDF1EB;
-    padding-left: 25px;
+    padding-left: 25px; 
 }
 
 .elementos-header {
