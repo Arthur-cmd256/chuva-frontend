@@ -68,12 +68,19 @@
                 });
             });
         </script>
+        <script>
+            $(document).ready(function(){
+                $("#btn-hamburger").click(function(){
+                    $("#teste7").slideToggle();
+                });
+            });
+            </script>
         <title>SLACA 2019</title>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row vw-99.9999">
-                <div id="side-bar" class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 col-xxl-2 p-0 position-fixed ">
+                <div id="side-bar" class="col-sm-3 col-md-3 col-lg-2 col-xl-2 col-xxl-2 p-0 position-fixed ">
                     <div id="top-nome-evento" class="row pt-3 pb-3 m-0">
                         <h1 class="p-0">
                             SLACA 2019
@@ -106,8 +113,51 @@
                         <a href="">Contato</a>
                     </div>
                 </div>
-                <div class="col-8 col-sm-9 col-md-9 col-lg-10 col-xl-10 col-xxl-10 offset-4 offset-sm-3 offset-md-3 offset-lg-2 offset-xl-2 offset-xxl-2">
-                    <div class="row align-items-center  header">
+                <div class="col-12 col-sm-9 col-lg-10 offset-0 offset-sm-3 offset-lg-2" >
+                    <div id="esconder" class="row align-items-center  pt-2 pb-2 nome-evento-mobile">
+                        <div class="col-3">
+                            <button id="btn-hamburger" class="btn mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="col-9">
+                            <div class="row">   
+                                <h1 class="p-0">
+                                    SLACA 2019
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="teste7" style="display: none">
+                        <div class="row m-0 item-menu">
+                            <a href="">Apresentação</a>
+                        </div>
+                        
+                        <div class="row m-0 item-menu">
+                            <a href="">Comitês</a>
+                        </div>
+    
+                        <div class="row m-0 item-menu">
+                            <a href="">Autores</a>
+                        </div>
+    
+                        <div class="row m-0 item-menu">
+                            <a href="">Eixos temóticos</a>
+                        </div>
+    
+                        <div id="item-trabalho" class="row m-0 item-menu">
+                            <a href="">Trabalho</a>
+                        </div>
+    
+                        <div class="row m-0 item-menu">
+                            <a href="">Contato</a>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center header">
                         <div class="elementos-header col-lg-6 col-xl-6 col-xxl-6">
                             <div class="row pt-2">
                                 <p id="primeiro-texto">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
@@ -119,7 +169,7 @@
                                 <p>ISSN: 1234-5678</p>
                             </div>
                         </div>
-                        <div class="elementos-header col-lg-2 col-xl-2 col-xxl-2">
+                        <div class="elementos-header col-3 col-lg-2 col-xl-2 col-xxl-2 pb-1">
                             <div class="dropdown d-flex justify-content-center">
                                 <button id="linguage-button" type="button" class="dropdown-toggle" data-bs-toggle="dropdown">
                                     <img id="linguage-image" src="img/language-image.png">
@@ -130,9 +180,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="elementos-header col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="elementos-header col-9 col-lg-4 col-xl-4 col-xxl-4 pb-1">
                             <div class="row">
-                                <div class="col-sm-8">
+                                <div class="col-8">
                                     <div class="row">
                                         <p class="login">Bem vindo!</p>
                                     </div>
@@ -140,7 +190,7 @@
                                         <p class="login">alguem12@galoascience.com</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-4">
                                     <img src="img/image.png" class="rounded-circle">
                                 </div>
                             </div>
@@ -159,18 +209,18 @@
                             <div class="row">
                                 <div class="col-lg-10 col-xl-10 col-xxl-10 justify-content-end">
                                     <div class="row">
-                                        <div class="col-sm-8 col-md-10 col-lg-8 p-0">
+                                        <div class="col-8 col-md-10 col-lg-8 p-0">
                                             <button class="button-top" type="button" class="btn">
                                                 <img src="img/download.png">
                                                 Download
                                             </button>   
                                         </div>
-                                        <div class="col-sm-2 col-md-1 col-lg-2 p-0">
+                                        <div class="col-2 col-md-1 col-lg-2 p-0">
                                             <button class="button-top" type="button" class="btn">
                                                 <img src="img/favorito.png">
                                             </button>
                                         </div>
-                                        <div class="col-sm-2 col-md-1 col-lg-2 p-0">
+                                        <div class="col-2 col-md-1 col-lg-2 p-0">
                                             <button class="button-top" type="button" class="btn">
                                                 <img src="img/doi.png">
                                             </button>

@@ -1,5 +1,40 @@
 /* side bar */
 
+@media screen and (max-width: 575px) {
+    #side-bar {
+        display: none;
+    }
+    .nome-evento-mobile {
+        background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    .nome-evento-mobile h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    #teste7 {   
+        margin: 15px 0px;
+        width: 50%;
+    }
+
+    .header {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    #esconder {
+        display: none;
+    }
+}
+
 #side-bar {
     min-height: 1080px;
     border-right: 1px solid #E7E7E7;
@@ -7,7 +42,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-#side-bar #top-nome-evento {
+#top-nome-evento {
     width: 100%;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
@@ -24,11 +59,11 @@
 
 }
 
-#side-bar .item-menu {
+.item-menu {
     width: 100%;
 }
 
-#side-bar .item-menu a{
+.item-menu a{
     text-decoration: none;
     font-family: 'Quicksand';
     font-style: normal;
@@ -38,9 +73,10 @@
     color: #725C5C;
     padding: 7px 0px 7px 25px;
     border-bottom: 1px solid #E7E7E7;
+    background: #FFFFFF;
 }
 
-#side-bar #item-trabalho {
+#item-trabalho {
     background: #FDF1EB;
     border-left: 5px solid #ED7839;
 }
