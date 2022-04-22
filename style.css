@@ -155,6 +155,10 @@
     padding-top: 10px;
 }
 
+#citar {
+    text-align: right;
+}
+
 .elemento-video-caixa{
     padding-left: 25px;
     padding-bottom: 30px;
